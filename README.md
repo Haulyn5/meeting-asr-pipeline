@@ -48,8 +48,6 @@ Use Route A as the main readable transcript. Use Route B to audit content near c
 ├── data/
 │   └── raw_input/
 │       └── .gitkeep
-├── docs/
-│   └── OPEN_SOURCE_CHECKLIST.md
 ├── envs/
 │   ├── qwen3-asr.yml
 │   └── speaker-diarization.yml
@@ -246,8 +244,6 @@ If continuity ASR is too slow, reduce `--window-sec` to `180`. If boundary loss 
 - Stereo channels are not assumed to be separate speakers. The pipeline mixes input to mono before diarization.
 
 ## Open Source Safety
-
-Before publishing to GitHub, read [docs/OPEN_SOURCE_CHECKLIST.md](docs/OPEN_SOURCE_CHECKLIST.md).
 
 This repository intentionally ignores:
 
