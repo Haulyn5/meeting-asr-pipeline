@@ -1,0 +1,13 @@
+name: speaker-diarization
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - soundfile
+      - scipy
+      - scikit-learn
+      - tqdm
+      - speechbrain==1.0.3
+      - huggingface_hub==0.36.2

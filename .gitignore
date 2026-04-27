@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local virtual environments and package caches
+.venv/
+.uv-cache/
+.conda/
+
+# Local editor / OS files
+.DS_Store
+.idea/
+.vscode/
+.codex
+
+# Private input data and generated artifacts
+data/raw_input/*
+outputs/*
+
+# Keep directory structure
+!data/
+!data/raw_input/
+!data/raw_input/.gitkeep
+!outputs/
+!outputs/.gitkeep
+
+# Model weights are large and may have separate licenses
+models/
+PretrainedModels/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Audio and generated transcript artifacts
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.aac
+*.ogg
+*.jsonl
+
+# Local secrets
+.env
+.env.*
+!.env.example
