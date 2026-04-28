@@ -10,8 +10,6 @@ This repository is built for long Chinese meeting recordings where both speaker 
 - **Speaker attribution**: uses VAD, SpeechBrain ECAPA speaker embeddings, and clustering.
 - **Long-recording friendly**: supports hour-long recordings through chunked ASR.
 - **Two-route design**: produces both speaker-attributed transcripts and long-window continuity transcripts.
-- **Mainland China friendly**: documents ModelScope, Hugging Face mirror, and PyPI mirror usage.
-- **Private by default**: raw audio, generated outputs, caches, and model weights are excluded from Git.
 
 ## Architecture
 
@@ -254,16 +252,6 @@ This repository intentionally ignores:
 - private `.env` files
 
 Do not use `git add .` until `git status --ignored` confirms private artifacts are excluded.
-
-## Repository Name
-
-Recommended GitHub repository slug:
-
-```text
-meeting-asr-pipeline
-```
-
-Use `Meeting ASR Pipeline` as the display title in README and project descriptions.
 
 ## License
 
